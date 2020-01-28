@@ -9,6 +9,9 @@ using Rainbow
 
 require 'active_record'
 Bundler.require(:default)
+
+ActiveRecord::Base.default_timezone = 'Beijing' # 更改默认时区为 中国
+
 # ActiveRecord::Base.establish_connection(
 #   :adapter => "sqlite3",
 #   :database  => "longman_audio.sqlite3"
@@ -62,6 +65,7 @@ class DictationLog < ActiveRecord::Base
     :database  => "user.sqlite3"
     )
 end
+
 class Word < ActiveRecord::Base
   establish_connection(
     :adapter => "sqlite3",

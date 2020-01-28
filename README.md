@@ -7,12 +7,20 @@
 - 播放器 mplayer
 - 单词数据库 sqlite
 
+## 使用方式
+```
+bundle install # 安装必须的 gem 包
+ruby main.rb # 运行脚本
+```
+
+### 注意事项
+如果github无法访问，可能需要配置代理
 ```
 git config --global http.https://github.com.proxy http://127.0.0.1:10809
 ```
 # TODO
 - 选择单词范围
-- 错误日志
+- ~~错误日志~~
 - 今日听写数据统计，导出 JSON 或 Marshal
 - 数据库增加字段，音标，美式发音url，
 - 句子发音填空
