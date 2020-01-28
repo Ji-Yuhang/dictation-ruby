@@ -7,3 +7,4 @@ gem 'sqlite3'
 # gem 'ao' # libao MP3播放器
 
 # gem 'debugger', :group => [:development, :test]
+gem 'pry'
