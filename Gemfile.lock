@@ -25,12 +25,13 @@ GEM
     rainbow (3.0.0)
     sqlite3 (1.4.2)
     thread_safe (0.3.6)
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     zeitwerk (2.2.2)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   activerecord
